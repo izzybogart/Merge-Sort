@@ -14,7 +14,6 @@ void merge(int A[], int p, int q, int r){
 	for(int i = 0; i <= leftSz; i++)
 		Left[i] = A[p + i - 1];
 
-	
 	for(int j = 0; j <= rightSz; j++)
 		Right[j] = A[q + j];
 	//since my program only generates random numbers between 0 and 100, 101 will work as infinity
